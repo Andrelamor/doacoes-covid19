@@ -1,0 +1,193 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "doacoes-destino",
+      "path": "data/doacoes_destino.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "ID",
+            "description": "Número sequencial com as doações"
+          },
+          {
+            "name": "destinatario_doacao",
+            "type": "any",
+            "format": "default",
+            "title": "Destinatário da Doação",
+            "description": "Descrição do destinatário da doação"
+          },
+          {
+            "name": "data_entrega ",
+            "type": "any",
+            "format": "default",
+            "title": "Data de entrega ",
+            "description": "Data de entrega da doação ao destinatário"
+          },
+          {
+            "name": "cidade_destinatario",
+            "type": "any",
+            "format": "default",
+            "title": "Cidade do destinatário",
+            "description": "Cidade do Destinatário"
+          },
+          {
+            "name": "produto",
+            "type": "any",
+            "format": "default",
+            "title": "Produto",
+            "description": "Descrição do bem ou material destinado"
+          },
+          {
+            "name": "quantidade",
+            "type": "number",
+            "format": "default",
+            "description": "Quantidade fracionada do bem ou material doado",
+            "title": "Quantidade"
+          },
+          {
+            "name": "unidade ",
+            "type": "any",
+            "format": "default",
+            "title": "Unidade",
+            "description": "Unidade fracionada do bem ou material doado"
+          },
+          {
+            "name": "valor_unitario ",
+            "type": "number",
+            "format": "default",
+            "title": "Valor unitário ",
+            "description": "Valor unitário comercial do bem ou material doado"
+          },
+          {
+            "name": "valor_total",
+            "type": "number",
+            "format": "default",
+            "title": "Valor total",
+            "description": "Valor total do bem ou material doado"
+          }
+        ]
+      }
+    },
+    {
+      "name": "doacoes-recebidas",
+      "path": "data/doacoes_recebidas.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "ID",
+            "description": "Número sequencial"
+          },
+          {
+            "name": "tipo_doacao",
+            "type": "any",
+            "format": "default",
+            "title": "Tipo de doação",
+            "description": "Tipo de bem ou material doado ao Estado. Exemplo: Financeiro, materiais, serviços, bens e etc"
+          },
+          {
+            "name": "doador",
+            "type": "any",
+            "format": "default",
+            "title": "Doador",
+            "description": "Nome completo do responsável pela doação"
+          },
+          {
+            "name": "cnpj_doador",
+            "type": "string",
+            "format": "default",
+            "title": "CNPJ do doador",
+            "description": "CNPJ do doador"
+          },
+          {
+            "name": "orgao_entidade _estadual",
+            "type": "any",
+            "format": "default",
+            "title": "Órgão ou Entidade Estadual",
+            "description": "Órgão ou Entidade Estadual responsável pelo recebimento da doação"
+          },
+          {
+            "name": "cnpj_orgao_entidade ",
+            "type": "string",
+            "format": "default",
+            "description": "CNPJ dos Órgãos ou Entidades Estaduais responsáveis pelo recebimento da doação",
+            "title": "CNPJ do Órgão ou entidade"
+          },
+          {
+            "name": "local_recebimento",
+            "type": "any",
+            "format": "default",
+            "title": "Local de recebimento",
+            "description": "Local em que a doação foi entregue para o Estado"
+          },
+          {
+            "name": "data_doacao",
+            "type": "date",
+            "format": "default",
+            "title": "Data da doação"
+          },
+          {
+            "name": "classificacao_produto",
+            "type": "any",
+            "format": "default",
+            "title": "Classificação do produto",
+            "description": "Classificação do produto doado"
+          },
+          {
+            "name": "produto",
+            "type": "any",
+            "format": "default",
+            "title": "Produto",
+            "description": "Descrição do bem ou material doado ao Estado. Exemplo: Financeiro, materiais, serviços, bens e etc"
+          },
+          {
+            "name": "unidade",
+            "type": "string",
+            "format": "default",
+            "title": "Unidade de medida",
+            "description": "Unidade  de medida fracionada"
+          },
+          {
+            "name": "quantidade",
+            "type": "number",
+            "format": "default",
+            "description": "Quantidade fracionada",
+            "title": "Quantidade"
+          },
+          {
+            "name": "valor_unitario ",
+            "type": "number",
+            "format": "default",
+            "title": "Valor unitário ",
+            "description": "Valor unitário comercial do bem ou material doado"
+          },
+          {
+            "name": "valor_total",
+            "type": "number",
+            "format": "default",
+            "description": "Valor total comercial do bem ou material doado",
+            "title": "Valor total "
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "COVID-19",
+    "coronavirus",
+    "doacao"
+  ],
+  "name": "doacoes-covid-19",
+  "title": "Doações COVID-19",
+  "description": "Contém a relação das doações recebidas pelo Estado de Minas Gerais para combate a pandemia causa pela COVID-19 e a destinação dessas doações",
+  "private": "false",
+  "state": "active"
+}
