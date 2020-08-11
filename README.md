@@ -7,4 +7,4 @@ A força-tarefa para arrecadar contribuições voluntárias em Minas Gerais é c
 Acesse os dados das doações recebidas pela força-tarefa, gerenciadas pela Defesa Civil de Minas Gerais, e as informações sobre a destinação dessas doações.
 
 
-[![goodtables.io](https://goodtables.io/badge/github/silviana-faria/dataset-template-silviana.svg)](https://goodtables.io/github/silviana-faria/dataset-template-silviana)
+[![goodtables.io](https://goodtables.io/badge/github/silviana-faria/doacoes-covid19.svg)](https://goodtables.io/github/silviana-faria/doacoes-covid19)
